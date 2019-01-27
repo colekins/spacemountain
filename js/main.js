@@ -1,5 +1,4 @@
 function hover() {
-  console.log('yo')
   $("#img").attr('src', 'https://i.imgur.com/TT3rBU4.png');
 }
 

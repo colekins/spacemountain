@@ -38,8 +38,8 @@ function isMobile() {
  || navigator.userAgent.match(/iPod/i)
  || navigator.userAgent.match(/BlackBerry/i)
 ) {
-  $('#buy').attr("onMouseOver", "null")
-  $('#buy').attr("onMouseOut", "null")
+  $('#buy').attr("onMouseOver", null)
+  $('#buy').attr("onMouseOut", null)
   startTimer()
   }
 }

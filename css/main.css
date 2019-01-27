@@ -98,10 +98,10 @@ textarea {
    ========================================================================== */
 
    body {
-     /* background-color: #efefff; */
      background-color: #edf0ff;
-     /* background-image: radial-gradient(circle, #efefff 70%, white); */
-   }
+     /* background-color: #3e4777; */
+     /* background-image: linear-gradient(to top right, #c4c4ff, #edf0ff); */
+     }
 
    h1 {
      /* font-family: Georgia, Times, "Times New Roman", serif; */
@@ -147,19 +147,18 @@ textarea {
      /* .albums {
        margin-top: 50px;
      } */
-
-     /* #img {
-      margin: auto;
-      display: block;
+/*
+     #img {
+     box-shadow: 7px 7px 50px grey;
      } */
 
      .btn {
-      background: #3498db;
-      background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
-      background-image: -moz-linear-gradient(top, #3498db, #2980b9);
-      background-image: -ms-linear-gradient(top, #3498db, #2980b9);
-      background-image: -o-linear-gradient(top, #3498db, #2980b9);
-      background-image: linear-gradient(to bottom, #3498db, #2980b9);
+      background: #52bcf9;
+      background-image: -webkit-linear-gradient(top, #52bcf9, #2980b9);
+      background-image: -moz-linear-gradient(top, #52bcf9, #2980b9);
+      background-image: -ms-linear-gradient(top, #52bcf9, #2980b9);
+      background-image: -o-linear-gradient(top, #52bcf9, #2980b9);
+      background-image: linear-gradient(to bottom, #52bcf9, #2873b9);
       font-family: Arial;
       font-weight: bold;
       color: #ffffff;

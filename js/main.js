@@ -7,7 +7,7 @@ function unhover() {
 }
 
 function showInfo() {
-  $(".info-box").slideToggle(200)
+  $(".info-box").slideToggle(300)
   $('html,body').animate({
         scrollTop: $(".info-box").offset().top},
         'slow');

@@ -218,7 +218,11 @@ textarea {
 
     @media only screen and (max-width: 470px) {
       .content {
-        margin-top: 22px;
+        margin-top: 24px;
+      }
+
+      .container {
+        margin-bottom: 34px;
       }
     }
 

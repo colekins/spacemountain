@@ -26,7 +26,7 @@ function displayPreviousImage() {
   document.getElementById("img").src = images[x];
 }
 function startTimer() {
-    setInterval(displayNextImage, 3000);
+    setInterval(displayNextImage, 4300);
 }
 
 function isMobile() {

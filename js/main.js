@@ -37,7 +37,8 @@ function isMobile() {
  || navigator.userAgent.match(/iPad/i)
  || navigator.userAgent.match(/iPod/i)
  || navigator.userAgent.match(/BlackBerry/i)
-) {
+    )
+  {
   $('#buy').attr("onMouseOver", null)
   $('#buy').attr("onMouseOut", null)
   startTimer()

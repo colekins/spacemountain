@@ -193,7 +193,7 @@ textarea {
       overflow: auto;
       padding-top: 11px;
       padding-bottom: 11px;
-      border: 0.5px solid #E9E9E9;
+      border: 1px solid #e2e2e2;
     }
 
     .txt {

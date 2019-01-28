@@ -82,6 +82,31 @@ textarea {
     resize: vertical;
 }
 
+.Loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* width: 100%; */
+}
+
+.Loading-progress {
+  height: 5px;
+  width: 100%;
+  background: linear-gradient(90deg, red 0%, yellow 15%, lime 30%, cyan 50%, blue 65%, magenta 80%, red 100%);
+  background-size: 200%;
+  animation: moveGradient 8s linear infinite;
+}
+
+@keyframes moveGradient {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: -200% 0%;
+  }
+}
+
+
 /* ==========================================================================
    Browser Upgrade Prompt
    ========================================================================== */
@@ -99,9 +124,27 @@ textarea {
 
    body {
      background-color: #edf0ff;
-     /* background-color: #3e4777; */
-     /* background-image: linear-gradient(to top right, #c4c4ff, #edf0ff); */
+     -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+     -webkit-animation-duration: 10s; /* Safari 4.0 - 8.0 */
+     /* animation-name: fader;
+     animation-duration: 10s;
+     animation-iteration-count: infinte; */
      }
+
+
+/* @-webkit-keyframes fader {
+  0% {background-color: #edf0ff;}
+  30% {background-color: #d8dfff;}
+  80% {background-color: #c9cefc;}
+  100% {background-color: #edf0ff;}
+}
+
+@keyframes fader {
+  0% {background-color: #edf0ff;}
+  30% {background-color: #d8dfff;}
+  80% {background-color: #c9cefc;}
+  100% {background-color: #edf0ff;}
+} */
 
    h1 {
      /* font-family: Georgia, Times, "Times New Roman", serif; */

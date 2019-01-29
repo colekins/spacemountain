@@ -7,8 +7,9 @@ function unhover() {
 }
 
 function showInfo() {
-  $(".info-box").slideToggle(300)
-  $('html,body').animate({
+  $(".info-box").slideToggle(290)
+  var visible = $('.info-box').is(":visible");
+  $('html, body').animate({
         scrollTop: $(".info-box").offset().top},
         'slow');
 }

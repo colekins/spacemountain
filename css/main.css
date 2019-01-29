@@ -14,6 +14,7 @@ html {
     color: #222;
     font-size: 1em;
     line-height: 1.4;
+    height: 100%;
 }
 
 /*
@@ -99,7 +100,8 @@ textarea {
    ========================================================================== */
 
    body {
-     background-color: #eff2ff;
+     background-color: #e8ecff;
+     background: linear-gradient(#e8ecff, white);
      -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
      -webkit-animation-duration: 10s; /* Safari 4.0 - 8.0 */
      /* animation-name: fader;

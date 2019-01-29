@@ -101,6 +101,10 @@ textarea {
 
    body {
      background-color: #e8ecff;
+     background: -moz-linear-gradient(#e8ecff, white); /* FF 3.6+ */
+     background: -ms-linear-gradient(#e8ecff, white); /* IE10 */
+     background: -webkit-linear-gradient(#e8ecff, white); /* Safari 5.1+, Chrome 10+ */
+     background: -o-linear-gradient(#e8ecff, white); /* Opera 11.10 */
      background: linear-gradient(#e8ecff, white);
      -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
      -webkit-animation-duration: 10s; /* Safari 4.0 - 8.0 */
@@ -244,6 +248,10 @@ textarea {
 
       .container {
         margin-bottom: 34px;
+      }
+
+      body {
+        background: #e8ecff;
       }
     }
 

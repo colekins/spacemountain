@@ -44,7 +44,12 @@ function isMobile() {
   startTimer()
   }
 }
+// 
+// function fixIframeWidth() {
+//   var iFrameDOM = $("iframe#iframe").contents();
+//   iFrameDOM.find("#player").css('minWidth', '100%')
+// }
 
 $('document').ready(function(){
-  isMobile()
+  isMobile();
 });

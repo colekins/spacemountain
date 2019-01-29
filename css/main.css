@@ -101,12 +101,12 @@ textarea {
    ========================================================================== */
 
    body {
-     background-color: #e8ecff;
-     background: -moz-linear-gradient(#e8ecff, white); /* FF 3.6+ */
-     background: -ms-linear-gradient(#e8ecff, white); /* IE10 */
-     background: -webkit-linear-gradient(#e8ecff, white); /* Safari 5.1+, Chrome 10+ */
-     background: -o-linear-gradient(#e8ecff, white); /* Opera 11.10 */
-     background: linear-gradient(#e8ecff, white);
+     background-color: #e0e5ff;
+     background: -moz-linear-gradient(#e0e5ff, white); /* FF 3.6+ */
+     background: -ms-linear-gradient(#e0e5ff, white); /* IE10 */
+     background: -webkit-linear-gradient(#e0e5ff, white); /* Safari 5.1+, Chrome 10+ */
+     background: -o-linear-gradient(#e0e5ff, white); /* Opera 11.10 */
+     background: linear-gradient(#e0e5ff, white);
      }
 
    h1 {
